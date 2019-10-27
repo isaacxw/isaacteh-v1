@@ -1,8 +1,0 @@
-import:
-  - _config.yml
-
-debug: true
-
-scss:
-  style: expanded
-  sourcemap: true
