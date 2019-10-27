@@ -1,0 +1,16 @@
+{% set navDataFile = site.navigationFile | default('navigation') %}
+{% set navDef = data[navDataFile] %}
+
+ <div class="logo">
+    <a href="{{ url('/') }}"><img src="{{ url('assets/imgs/logo.png') }}" alt="Isaac Teh Logo" ></a>
+</div>
+<div class="nav">
+    {% for link in navDef.main %}
+    <a
+        class="item"
+        href='{{ url(link.url) }}'
+    >
+        {{ link.name }}
+    </a>
+    {% endfor %}
+</div>

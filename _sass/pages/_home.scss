@@ -1,0 +1,86 @@
+body .container .title {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-family: "Fira Sans", sans-serif; }
+body .container .title .name {
+  width: 100%;
+  height: 14px;
+  position: relative;
+  float: left;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 14px; }
+body .container .title h1 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 28px; }
+body .container .title .actions {
+  width: 100%;
+  height: 48px;
+  position: relative;
+  float: left;
+  margin-bottom: 30px; }
+body .container .title .actions .action {
+  width: 160px;
+  height: 44px;
+  position: relative;
+  float: left;
+  margin-right: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background-color: #ce313c;
+  z-index: 2; }
+body .container .title .actions .action span {
+  width: 160px;
+  height: 44px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background-color: rgba(64, 235, 114, 0.5);
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  z-index: -1;
+  transition: all ease 0.15s; }
+body .container .title .actions .action:hover span {
+  transform: translate(-4px, -4px); }
+body .container .title .latest {
+  width: 100%;
+  height: 14px;
+  position: relative;
+  float: left;
+  font-size: 14px;
+  white-space: nowrap; }
+body .container .title .latest i {
+  color: #ffa700;
+  font-size: 14px;
+  line-height: 14px;
+  position: relative;
+  float: left;
+  margin-right: 10px; }
+body .container .title .latest span {
+  width: auto;
+  max-width: calc(100% - 24px);
+  height: 14px;
+  position: relative;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+body .container .title .latest span a {
+  white-space: pre;
+  text-decoration: underline; }

@@ -1,0 +1,34 @@
+target: _site
+
+url: https://www.isaacteh.me
+baseurl: /
+
+collections:
+  - name: posts
+    folder: _posts
+
+categories:
+  - home
+  - about
+  - resume
+  - portfolio
+  - contact
+
+data:
+  - _data
+
+pageviews:
+  - _pages
+
+theme: bootstrap
+
+title: Isaac Teh Site
+
+templates:
+  redirect: false
+
+debug: false
+
+scss:
+  style: compressed
+  sourcemap: false

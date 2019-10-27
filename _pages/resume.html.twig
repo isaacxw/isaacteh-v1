@@ -1,0 +1,71 @@
+---
+title: Resume
+permalink: /resume
+---
+
+{% extends "@theme/_layouts/one-column.html.twig" %}
+
+{% block body %}
+    <div class="content resume">
+
+        <div class="side right">
+            <h1>Isaac Teh</h1>
+
+            <h2>Work Experience</h2>
+            <div class="location">
+                <div class="logo"><img src="{{ url('assets/imgs/csun_logo_resize.jpg') }}" alt="California State University, Northridge"></div>
+                <div class="details">
+                    <div class="role">Web Developer (Student Position)</div>
+                    <div class="name">Central IT at California State University, Northridge</div>
+                    <div class="timeline">March 2019 to Present | Greater Los Angeles, California</div>
+                    <div class="description">
+                        I do full-stack development alongside a team of highly talented and creative developers.
+                        Under the guidance of my awesome mentor, I help build up the front-end and back-end for
+                        campus-wide applications.
+                    </div>
+                    <div class="stack">Stack: CSS/SCSS, React JS, Javascript/Typescript, Python3, Git, AWS (Lambda, API Gateway)</div>
+                </div>
+            </div>
+            <div class="location">
+                <div class="logo"><img src="{{ url('assets/imgs/csun_logo_resize.jpg') }}" alt="California State University, Northridge"></div>
+                <div class="details">
+                    <div class="role">Systems and Database Administrator</div>
+                    <div class="name">Central IT at California State University, Northridge</div>
+                    <div class="timeline">April 2018 to March 2018 | Greater Los Angeles, California</div>
+                    <div class="description">
+                        I was tasked with monitoring, modifying, and maintaining servers used to host various applications
+                        that is utilized by over 40,000 students and faculty members. I also independently developed automation
+                        scripts that automates web logins and interactions.
+                    </div>
+                    <div class="stack">Stack: Python3, Selenium, Beautiful Soup 4
+                </div>
+            </div>
+            <div class="location">
+                <div class="logo"><img src="{{ url('assets/imgs/ah_logo_resize.png') }}" alt="Affin Hwang Capital"></div>
+                <div class="details">
+                    <div class="role">Software Developer Intern</div>
+                    <div class="name">Affin Hwang Capital Investment</div>
+                    <div class="timeline">June 2017 to August 2017 | Kuala Lumpur, Malaysia</div>
+                </div>
+            </div>
+            <h2>Education</h2>
+            <div class="location">
+                <div class="logo"><img src="{{ url('assets/imgs/csun_logo_resize.jpg') }}" alt="California State University, Northridge"></div>
+                <div class="details">
+                    <div class="role">B.Sc. Computer Science</div>
+                    <div class="name">California State University, Northridge (CSUN)</div>
+                    <div class="timeline">GPA - 3.2 | Dean's List (Fall '16, Spring '17, Spring '18)</div>
+                </div>
+            </div>
+
+            <h2>Skills</h2>
+            <div class="location">
+                <div class="details">
+                    <div class="role">Programming Languages</div>
+                    <div class="timeline">Python3, Java, Javascript/Typescript</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

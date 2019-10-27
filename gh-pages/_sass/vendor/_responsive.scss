@@ -1,0 +1,97 @@
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; }
+  body .container header .logo {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; }
+  body .container header .nav {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center; }
+  body .container header .nav .item {
+    margin-left: 10px;
+    margin-right: 10px;
+    float: none; }
+  body .container header .nav .item:nth-of-type(1) {
+    margin-left: 10px; }
+  body .container .title h1 {
+    height: auto; }
+  body .container .title .actions .action {
+    width: calc(50% - 15px); }
+  body .container .title .actions .action:nth-last-of-type(1) {
+    margin-right: 0; }
+  body .container .title .actions .action span {
+    width: 100%; }
+  body .container .content .ui-large .screen, body .container .content .ui-small .screen {
+    height: auto; }
+  body .container .content .ui-large, body .container .content .ui-small {
+    padding: 20px 20px 0 20px;
+    height: auto; }
+  body .container .content .ui-large .screen img, body .container .content .ui-small .screen img {
+    width: 100%;
+    height: auto; }
+  body .container .title.portfolio .actions .action {
+    margin-right: 30px;
+    margin-left: 0; }
+  body .container .title.portfolio .actions .action:nth-last-of-type(1) {
+    margin-right: 0; }
+  body .container .content.note .image-feature {
+    width: 100%;
+    height: auto; }
+  body .container .content.about .side.right {
+    width: 100%; }
+  body .container .content.about .side.right h1 {
+    font-size: 20px; }
+  body .container .content.about .side.right .location .details {
+    margin: 0;
+  }
+    body .container .content.about .side.right .location .details .role {
+    line-height: 120%;
+  }
+  body .container .content.about .side.right .location .details .name {
+    line-height: 120%;
+  }
+  body .container .content.about .about-image {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 5rem;
+    margin-right: 3.5rem;
+  }
+  body .container .content.about .about-image img {
+    width: 100%;
+    height: 100%;
+  }
+  body .container .content.resume .side.right {
+    width: 100%; }
+  body .container .content.resume .side.right h1 {
+    font-size: 20px; }
+  body .container .content.resume .side.right .location .details {
+    margin: 0;
+  }
+  body .container .content.resume .side.right .location .details .role {
+    line-height: 120%;
+  }
+  body .container .content.resume .side.right .location .details .name {
+    line-height: 120%;
+  }
+    body .container footer .copyright {
+    float: right;
+    width: 100%;
+    text-align: center; }
+  body .container footer .logo img {
+    display: none !important;
+  }
+  body .container footer .socials {
+    float: left;
+    width: 100%;
+    text-align: center; }
+  body .container footer .socials i {
+    margin-left: 8px;
+    margin-right: 8px; } }

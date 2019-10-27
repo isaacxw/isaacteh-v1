@@ -1,0 +1,97 @@
+body .container .content.about {
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  float: left;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 100px;
+  margin-bottom: 20px; }
+body .container .content.about .about-image {
+  max-width: 100%;
+  height: 100%;
+  padding-top: 35px;
+  position: relative;
+  margin-left: 12rem;
+}
+body .container .content.about .about-image img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%; }
+body .container .content.about .side.right {
+  width: 600px;
+  height: auto;
+  position: relative;
+  float: left; }
+body .container .content.about .side.right h1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ce313c; }
+body .container .content.about .side.right h2 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ce313c;}
+body .container .content.about .side.right p {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: 'Fira Sans', sans-serif; }
+body .container .content.about .side.right p:nth-last-of-type(1) {
+  margin-bottom: 0; }
+body .container .content.about .side.right .location {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 15px; }
+body .container .content.about .side.right .location.bottom {
+  margin-bottom: 0; }
+body .container .content.about .side.right .location .logo {
+  width: 58px;
+  height: 58px;
+  position: relative;
+  float: left;
+  border-radius: 50%;
+  overflow: hidden; }
+body .container .content.about .side.right .location .details {
+  width: calc(100% - 58px);
+  height: 48px;
+  margin-top: 0.6rem;
+  position: relative;
+  float: left;
+  padding-left: 16px;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+body .container .content.about .side.right .location .details .name {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 6px;
+  font-size: 15px; }
+body .container .content.about .side.right .location .details .role {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  font-size: 16px; }
