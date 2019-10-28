@@ -3,10 +3,6 @@ target: _site
 url: https://www.isaacteh.me
 baseurl: /
 
-collections:
-  - name: posts
-    folder: _posts
-
 categories:
   - home
   - about

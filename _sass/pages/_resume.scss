@@ -32,10 +32,9 @@ body .container .content.resume .side.right h2 {
   margin-top: 40px;
   margin-bottom: 20px;
   padding-bottom: 4px;
-  border-bottom: 3px solid;
+  border-bottom: 3px solid #ce313c;
   font-size: 28px;
-  line-height: 30px;
-  color: #ce313c; }
+  line-height: 30px; }
 body .container .content.resume .side.right p:nth-last-of-type(1) {
   margin-bottom: 0; }
 body .container .content.resume .side.right .location {
@@ -89,7 +88,8 @@ body .container .content.resume .side.right .location .details .timeline {
   margin-bottom: 10px;
   font-size: 15px;
   font-weight: 500;
-  line-height: 18px; }
+  line-height: 18px;
+  color: #636363; }
 body .container .content.resume .side.right .location .details .description {
   width: 100%;
   height: auto;
