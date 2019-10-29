@@ -28,6 +28,11 @@
     margin-right: 0; }
   body .container .title .actions .action span {
     width: 100%; }
+  body .container .content.about .actions {
+    margin-left: 20%; }
+  body .container .content.resume .actions {
+    margin-left: 20%;
+  }
   body .container .content .ui-large .screen, body .container .content .ui-small .screen {
     height: auto; }
   body .container .content .ui-large, body .container .content .ui-small {
@@ -61,8 +66,8 @@
     position: relative;
     max-width: 100%;
     max-height: 100%;
-    margin-left: 5rem;
-    margin-right: 3.5rem;
+    margin-left: 30%;
+    margin-right: 30%;
   }
   body .container .content.about .about-image img {
     width: 100%;

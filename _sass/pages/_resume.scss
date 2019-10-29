@@ -100,7 +100,7 @@ body .container .content.resume .side.right .location .details .description {
   margin-left: -15px;
   border: none;
   border-radius: 5px;
-  box-shadow: 2px 2px 4px 2px #ce313c;
+  box-shadow: 1px 1px 2px 1px #ce313c;
   font-size: 18px;
   font-weight: 400;
   line-height: 20px; }
@@ -109,8 +109,71 @@ body .container .content.resume .side.right .location .details .stack {
   height: auto;
   position: relative;
   float: left;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 10px;
   font-size: 15px;
   font-weight: 500;
   line-height: 18px; }
+body .container .content.resume .side.right .location ul.blocks {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+body .container .content.resume .side.right .location .blocks > li {
+  display: inline-block;
+  margin: 4px;
+  padding: 0.4rem;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px 1px #ce313c;
+  border-radius: 5px;
+  float: left;
+  color: #535353;
+  font-weight: 500;
+}
+body .container .content.resume .actions {
+  width: 100%;
+  height: 48px;
+  position: relative;
+  float: left;
+  margin-top: 48px;
+  margin-left: 35%;
+  margin-bottom: 0; }
+body .container .content.resume .actions .action {
+  width: 160px;
+  height: 44px;
+  position: relative;
+  float: left;
+  margin-right: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background-color: #ce313c;
+  z-index: 2; }
+body .container .content.resume .actions .action span {
+  width: 160px;
+  height: 44px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background-color: rgba(64, 235, 114, 0.5);
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  z-index: -1;
+  transition: all ease 0.15s; }
+body .container .content.resume .actions .action:hover span {
+  transform: translate(-4px, -4px); }
+body .container .content.resume .latest {
+  width: 100%;
+  height: 14px;
+  position: relative;
+  float: left;
+  font-size: 14px;
+  white-space: nowrap; }

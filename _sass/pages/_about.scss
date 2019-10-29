@@ -93,3 +93,48 @@ body .container .content.about .side.right .location .details .role {
   position: relative;
   float: left;
   font-size: 15px; }
+body .container .content.about .actions {
+  width: 100%;
+  height: 48px;
+  position: relative;
+  float: left;
+  margin-top: 48px;
+  margin-left: 35%;
+  margin-bottom: 0; }
+body .container .content.about .actions .action {
+  width: 160px;
+  height: 44px;
+  position: relative;
+  float: left;
+  margin-right: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background-color: #ce313c;
+  z-index: 2; }
+body .container .content.about .actions .action span {
+  width: 160px;
+  height: 44px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background-color: rgba(64, 235, 114, 0.5);
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  z-index: -1;
+  transition: all ease 0.15s; }
+body .container .content.about .actions .action:hover span {
+  transform: translate(-4px, -4px); }
+body .container .content.about .latest {
+  width: 100%;
+  height: 14px;
+  position: relative;
+  float: left;
+  font-size: 14px;
+  white-space: nowrap; }
