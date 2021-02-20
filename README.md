@@ -1,7 +1,6 @@
 # Personal Website - Isaac Teh
 
 This repo contains the source code for [isaacteh.me](www.isaacteh.me).
-Currently a work in progress.
 
 
 <p align="center">
